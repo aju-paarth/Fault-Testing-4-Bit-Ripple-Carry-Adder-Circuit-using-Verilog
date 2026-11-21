@@ -6,8 +6,7 @@ module adder_tb;
   wire d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31, d32;
   wire found;
 
-  fault_check uut(A0, A1, A2, A3, B0, B1, B2, B3, Ci, S0, S1, S2, S3, C3,
-                  d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31, d32, found);
+  fault_check uut(A0, A1, A2, A3, B0, B1, B2, B3, Ci, S0, S1, S2, S3, C3, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31, d32, found);
 
   initial begin
     $dumpfile("dump.vcd");
