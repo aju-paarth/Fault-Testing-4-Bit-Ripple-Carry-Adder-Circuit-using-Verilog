@@ -1,5 +1,4 @@
 // testbench : 4-bit adder, all faults of full adder 0 (faults 1 to 32)
-// inputs are given in the order A0 B0, A1 B1, A2 B2, A3 B3, then Ci
 
 module adder_tb;
   reg A0, B0, A1, B1, A2, B2, A3, B3;
